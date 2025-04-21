@@ -87,8 +87,9 @@ function App() {
   const question = questions[step];
 
   const onClickVAriant = (index) => {
+    console.log(step, index);
     setStep(step +1);
-    if(index === question.correct) {
+    if(index === (question.correct - 1)) {
       setCorrect(correct + 1);
     }
   };
@@ -96,7 +97,7 @@ function App() {
    return (
     <div className="App">
       {
-        step != questions.length ? (<Game step={step} question={question} onClickVAriant={onClickVAriant} />) : <Result correct={correct} />
+        step !== questions.length ? (<Game step={step} question={question} onClickVAriant={onClickVAriant} />) : <Result correct={correct} />
       }
     </div>
   );
