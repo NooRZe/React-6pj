@@ -53,7 +53,7 @@ const questions = [
 function Result ({correct}) {
   return (
     <div className="result">
-      <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsvamPAgy-_jhaN3hIKjlkc8YDsyhxniMBBdhZlz36UNDQC_SsdLC2UCoUK8Dmce5DKYk&usqp=CAU" />
       <h2>Вы отгадали {correct} ответа из {questions.length}</h2>
       <a href="/">
         <button>Попробовать снова</button>
