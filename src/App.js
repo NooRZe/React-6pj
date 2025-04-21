@@ -3,7 +3,7 @@ import './index.scss';
 
 const questions = [
   {
-   title: 'Сколько всего играбельных фракакций насчитывает трилогия Dawn of War?',
+   title: 'Сколько всего играбельных фракций насчитывает трилогия Dawn of War?',
    variants: ['3', '4', '7', '10'],
    correct: 4, 
   },
